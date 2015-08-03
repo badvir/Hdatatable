@@ -24,7 +24,7 @@ int main(int argc, char** argv)
 	int i,j;
 	int c = 1;
 
-
+	/*
 	Hdatatable *table = h_datatable_load_from_file("/root/ips", '\t');
 	if(!table) {
 		printf("invalid \n");
@@ -38,8 +38,8 @@ int main(int argc, char** argv)
 
 	h_datatable_free(table);
 	return 0;
+*/
 
-	/*
 	char buffer[1280];
 
 	while(c) {
@@ -71,7 +71,7 @@ int main(int argc, char** argv)
 		if(c > 10)
 			break;
 	}
-*/
+
 
 
 	/*
